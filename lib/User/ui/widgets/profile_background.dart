@@ -17,7 +17,7 @@ class ProfileBackground extends StatelessWidget{
                 Color(0xFFB163F7),
                 Color(0xFF440C75)
               ],
-              begin: FractionalOffset(0.2,-0.1),
+              begin: FractionalOffset(0.2, 0.0),
               end: FractionalOffset(1.0,1.0),
               stops: [0.0,0.8],
               tileMode: TileMode.clamp
@@ -25,13 +25,13 @@ class ProfileBackground extends StatelessWidget{
       ),
       child: FittedBox(
         fit: BoxFit.none,
-        alignment: Alignment(1, -1.5),
+        alignment: Alignment(-2, -1),
         child: Container(
-          width: screenWidth,
-          height: screenHeight,
+          width: screenWidth*1.5,
+          height: screenHeight*.8,
           decoration: BoxDecoration(
-            color: Color.fromRGBO(0, 0, 0, 0.050980392156862744),
-            borderRadius: BorderRadius.circular(screenHeight/2)
+            color: Color.fromRGBO(0, 0, 0, 0.1),
+            borderRadius: BorderRadius.circular(screenHeight*0.5)
 
           ),
         ),
