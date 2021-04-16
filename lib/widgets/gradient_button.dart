@@ -5,6 +5,7 @@ import 'package:flutter/animation.dart';
 class GradientButton extends StatelessWidget{
 
   String buttonText = "";
+
   GradientButton(this.buttonText);
 
   @override

@@ -7,7 +7,7 @@ import '../widgets/card_img_list.dart';
 
 class Home extends StatelessWidget {
 
-  String dummieText="An exiting and fun place to spend your salary";
+  String dummieText="An exciting and fun place to spend your salary";
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class Home extends StatelessWidget {
             ReviewList()
           ],
         ),
-        GradientBackground("Welcome"),
+        GradientBackground("Welcome", 300),
         CardImageList(),
       ],
     );
